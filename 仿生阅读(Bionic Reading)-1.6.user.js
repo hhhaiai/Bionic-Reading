@@ -93,7 +93,7 @@
             if (child.nodeType === Node.TEXT_NODE && child.textContent.trim().length > 0) {
                 // 处理文本节点
                 processTextNode(child);
-            } else if (child.nodeType === Node.ELEMENT_NODE && child.tagName !== 'SCRIPT' && child.tagName !== 'STYLE') {
+            } else if (child.nodeType === Node.ELEMENT_NODE && child.tagName !== 'SCRIPT' && child.tagName !== 'STYLE' && child.tagName !== 'PRE') {
                 // 递归处理子节点
                 traverseAndFormatText(child);
             }
