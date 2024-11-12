@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿生阅读(Bionic Reading)
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  通过Alt+B（Mac为Control+B）开关的通用仿生阅读脚本，只作用于英文内容，优先处理字典中的词，并根据单词长度进行加粗
 // @author       yitong233
 // @match        *://*/*
